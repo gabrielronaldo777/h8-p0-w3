@@ -5,7 +5,9 @@ function pasanganTerbesar(num) {
       hasil[i]= str[i] + str[i+1];
     }
     hasil.sort();
-    return hasil[hasil.length-1];
+    var result = hasil[hasil.length-1];
+     var angka = parseInt(result);
+    return angka;
   }
   
   // TEST CASES
