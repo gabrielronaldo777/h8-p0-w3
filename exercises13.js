@@ -1,5 +1,17 @@
 function targetTerdekat(arr) {
-    // you can only write your code here!
+    var o = arr.indexOf('o');
+    var x = arr.indexOf('x');
+    if (x === -1){
+        return 0;
+    }
+    if (o < x){
+        return x - o;
+    } 
+    else if(o > x){
+        var lastx = arr.lastIndexOf('x');
+        return o - lastx;
+    } 
+    
   }
   
   // TEST CASES
