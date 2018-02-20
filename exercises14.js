@@ -1,5 +1,5 @@
 function mengelompokkanAngka(arr) {
-  var kelompok =[[], [] ,[]]
+  var kelompok =[[], [], []]
   for (var i=0; i < arr.length; i++){
     if(arr[i] % 3 === 0){
        kelompok[2].push(arr[i]);
